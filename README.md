@@ -10,7 +10,7 @@ $ lima
 
 ```bash
 # install bcc
-$ sudo apt-get install bpfcc-tools linux-headers-$(uname -r)
+$ sudo apt-get install bpfcc-tools linux-headers-$(uname -r) linux-tools-common linux-tools-generic llvm
 # move to a writable directory
 $ cd /tmp
 $ cat <<EOF > hello.py
